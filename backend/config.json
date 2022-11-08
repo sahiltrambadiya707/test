@@ -1,0 +1,16 @@
+{
+  "MONGODB": {
+    "GLOBAL": {
+      "DATABASE": {
+        "TEST": {
+          "COLLECTION": {
+            "POST": "post"
+          },
+          "NAME": "test"
+        }
+      },
+      "URI": "mongodb+srv://hupp:hupp123@mycluster.2ud6h.mongodb.net/test?retryWrites=true&w=majority",
+      "USE_TEST_PIN": "true"
+    }
+  }
+}

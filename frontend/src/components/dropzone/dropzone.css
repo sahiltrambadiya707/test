@@ -1,0 +1,57 @@
+.uploader-container {
+  background: whitesmoke;
+  height: 100px;
+  border: 1px rgb(75, 75, 75);
+  border-style: dashed;
+  border-width: 3px;
+}
+
+.uploader-alignment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.input-btn-text-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.custom-file-input {
+  cursor: pointer;
+}
+
+.image-title-wrapper {
+  top: 30px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.title-wrapper {
+  text-align: center;
+}
+
+.title-wrapper > span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #6d7175;
+}
+
+.subTitle-message {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6d7175;
+  text-align: center;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: row-reverse;
+}
